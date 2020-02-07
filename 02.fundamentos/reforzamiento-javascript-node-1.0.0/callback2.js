@@ -54,13 +54,11 @@ let getSalario = (empleado, callback) => {
 }
 
 
-
-getEmpleado(3, (err, empleado) => {
+getEmpleado(2, (err, empleado) => {
 
     if (err) {
         return console.log(err);
     }
-
 
     getSalario(empleado, (err, resp) => {
 
